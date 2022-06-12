@@ -1,0 +1,88 @@
+
+br{
+	display: block;
+	margin:90px;
+}
+
+tbody{
+	font-size:26px;
+background-color: mediumorchid;
+	border-style: inset;
+	border-color: mediumorchid;
+	
+}
+
+.tableborder{
+	table-layout: fixed;
+}
+.headfont{font-family:"Sticky Notes";color:black;border-style: outset;border-color: black}
+
+.sticky{font-family:"Sticky Notes";}
+
+.aligntext{text-align: center;}
+
+.fontsize{font-size:38px;}
+
+
+.bordertitle{
+	background: url();
+	box-sizing: border-box;
+	border-width: thick;
+	border:inset 
+}
+
+.container2 {
+        display:flex;
+        align-items:center;
+        justify-content:flex-start;
+      }
+      img {
+        max-width: 100%;
+		  
+		 
+      }
+   
+.image{
+	max-width: 100%;
+	
+		  border-style:inset;
+		  border-color: mediumorchid;
+		  border-width:10px;
+}  
+		  
+		  
+    
+
+.text1{
+        font-size: 20px;
+        padding-left:6px;
+}
+
+
+
+.container3 {
+        display: flex;
+        align-items:center;
+        justify-content:flex-start;
+}
+   
+
+.text2{
+	
+        font-size: 20px;
+        padding-left:14px;
+}
+.border3{
+	border-style: outset;
+	border-color: mediumpurple;
+	border-width: 6px;
+	
+}
+
+.songlink{
+	background-color: mediumorchid;
+	border-style: outset;
+	border-width: thick;
+	border-color: mediumpurple;
+	
+}

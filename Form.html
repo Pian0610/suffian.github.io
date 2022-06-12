@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device width,initial-scale=0">
+<title>Feedback</title>
+
+<link rel="stylesheet" href="fontstyle.css">
+<link rel="stylesheet" href="navigation.css">	
+<link rel="stylesheet" href="formstyle.css">
+	<script language="javascript">
+	function validateForm(){
+		let x=document.forms["myform"]["fname"].value;
+		if (x==""){
+			alert("Form is not complete.");
+			return false;
+		}else{
+			alert("Thank You!!");
+		}
+		
+	}
+
+
+		
+	</script>
+
+</head>
+
+<body>
+
+	<nav class="topnav">
+		<div class="sticky">
+			<font size="+2">
+			<a href="About.html">About Me</a>
+	<a href="Form.html">Feedback</a>
+	<a href="https://playvalorant.com/en-us/" target="_blank"><div>Activities</div></a>
+	<a href="Personal Website.html">Home</a>
+	<a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="20" alt=""/></a>
+	
+	</font>
+	
+		</div>
+</nav>
+	
+	<br>
+	<center>
+	<form name="myform" action=""  method="POST" onsubmit="return validateForm()">
+		<div class="radio">Enter your email:
+		<br>
+		<input  type="email" name="fname"></div>
+		
+		
+		
+		
+		
+		<div class="radio"><p>Do you enjoy my page?<br>
+	<input type="radio" name="poll" value="Yes">Yes
+	<input type="radio" name="poll" value="No">No
+		</p></div>
+	
+		<br>
+		
+		
+		
+	<input type="submit" name="submit" value="SUBMIT">
+	
+
+	</form>
+		
+	</center>
+	
+
+	
+	
+	
+	
+	 
+	<div class="sticky"><div class="footer">
+<center>
+<h3><b>Created by Pian</b></h3>
+		</center>
+	</div></div>
+	
+	
+	
+
+
+	
+	
+</body>
+</html>
+

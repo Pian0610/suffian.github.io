@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:fixed;
+	background-size: cover;
+	background-image: url("sea.jpg");
+
+}
+
+form{
+	font-size: 32px;
+	font-family: "Sticky Notes";
+	
+}
+
+.radio{
+	width:40%;
+	border: solid mediumpurple;
+	background-color: mediumpurple;
+	margin-top: 8%;
+	margin-bottom: 5%;
+	
+}

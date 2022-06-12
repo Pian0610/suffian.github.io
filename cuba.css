@@ -1,0 +1,56 @@
+
+body{background:fixed;background-image: url("background1.jpg");background-size: cover;}
+
+ .container {
+        display: flex;
+        align-items:flex-start;
+        justify-content:flex-start;
+      }
+ .img {
+	 
+	width: 300px;
+	 height:450px;
+  border: 11px outset mediumpurple;
+  margin: 10px;
+        max-width: 100%
+      }
+      .image {
+        flex-basis:17%
+      }
+  .text1 {
+        font-size: 20px;
+        padding: 2px;
+      }
+
+.text2 {
+        font-size: 20px;
+        padding: 2px;
+      }
+
+
+.activities{
+	background-image: url(val.png);
+	background:cover;
+	
+}
+
+.boxContent{
+	background-size: cover;
+	background-image:url(raiden.jpg);
+  width: 320px;
+  border: 11px  outset mediumpurple;
+  padding: 12px;
+  margin: 20px;
+
+}
+
+.titlebox{
+	
+}
+
+
+
+
+
+
+
